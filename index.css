@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: #1B244A
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 25px;
+}
+
+.box {
+    background-color: black;
+    width: 155px;
+    height: 120px; 
+    color: #F94F6D;
+    display: flex;
+    justify-content: space-around;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding-top: 30px;
+    margin: 25px;      
+}
+
+button {
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    font-family: 'Cursed Timer ULil', sans-serif;
+    font-size: 18;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.newgamebtn {
+  position: absolute;
+margin-top: 50px;
+left: 45%;
+width: 100px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+
+
+}
